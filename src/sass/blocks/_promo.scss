@@ -24,6 +24,8 @@
 	}
 	&__subtitle {
 		position: relative;
+		padding-left: 10px;
+		z-index: 3;
 		@include before_circle;
 	}
 }
