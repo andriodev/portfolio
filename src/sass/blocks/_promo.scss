@@ -1,0 +1,29 @@
+.promo {
+	min-height: 100vh;
+	position: relative;
+	background: url('../img/main_foto.jpg') center center/cover no-repeat;
+	padding: 275px 0 300px 0;
+	&__title {
+		width: 475px;
+		margin-top: 12px;
+	}
+	&__links {
+		margin-top: 33px;
+		width: 210px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__link {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 21px;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	&__subtitle {
+		position: relative;
+		@include before_circle;
+	}
+}
