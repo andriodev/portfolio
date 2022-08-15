@@ -40,11 +40,27 @@
 		&:after {
 			content: '';
 			width: 1px;
-			height: 95%;
+			height: 85%;
 			background-color: #000000;
 			position: absolute;
 			top: 37px;
 			left: 15px;
+		}
+		ul {
+			list-style: none;
+			padding: 0;
+			li {
+				position: relative;
+				&:after {
+				content: '';
+				width: 35px;
+				height: 1px;
+				background-color: #000;
+				position: absolute;
+				top: 28px;
+				left: -28px;
+			}
+			}
 		}
 	}
 	&-item {
@@ -68,18 +84,9 @@
 		&__descr {
 			font-style: normal;
 			font-weight: 500;
-			font-size: 12px;
+			font-size: 13px;
 			line-height: 18px;
 			color: #000000;
-		}
-		&:after {
-			content: '';
-			width: 36px;
-			height: 1px;
-			background-color: #000;
-			position: absolute;
-			top: 28px;
-			left: -28px;
 		}
 	}
 }

@@ -11,3 +11,11 @@ clossElem.addEventListener('click', () => {
 	block.classList.add('active'),
 	menu.classList.remove('active');	
 });
+
+
+const procents = document.querySelectorAll('.use__statistic-progress'),
+	lines = document.querySelectorAll('.use__statistic-color')
+
+	procents.forEach((item, i) =>{
+		lines[i].style.width = item.innerHTML;
+	});
