@@ -75,6 +75,9 @@
 			padding-left: 20px;
 			display: inline-block;
 			position: relative;
+			&:first {
+				font-size: 14px;
+			}
 			@include before_circle;
 			&:before {
 				top: 10px;

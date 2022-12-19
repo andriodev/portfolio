@@ -9,16 +9,13 @@
     align-items: center;
     height: 340px;
     width: 24px;
-    &:hover {
-        background-color: #000;
-    }
     &__divider {
         height: 70px;
         width: 2px;
-        background-color: #fff;
+        background-color: #000;
     }
     &__text {
-        color: #fff;
+        color: #000;
         height: 150px;
         span {
             display: block;

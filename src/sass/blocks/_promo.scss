@@ -21,6 +21,10 @@
 		line-height: 21px;
 		color: #FFFFFF;
 		text-decoration: none;
+		&:hover {
+			color: #FFFFFF;
+			text-decoration: underline;
+		}
 	}
 	&__subtitle {
 		position: relative;
