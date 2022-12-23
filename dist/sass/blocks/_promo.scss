@@ -1,0 +1,35 @@
+.promo {
+	min-height: 100vh;
+	position: relative;
+	background: url('../img/main_foto.jpg') center center/cover no-repeat;
+	padding: 275px 0 300px 0;
+	&__title {
+		width: 520px;
+		margin-top: 12px;
+	}
+	&__links {
+		margin-top: 33px;
+		width: 225px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__link {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 21px;
+		color: #FFFFFF;
+		text-decoration: none;
+		&:hover {
+			color: #FFFFFF;
+			text-decoration: underline;
+		}
+	}
+	&__subtitle {
+		position: relative;
+		padding-left: 10px;
+		z-index: 3;
+		@include before_circle;
+	}
+}

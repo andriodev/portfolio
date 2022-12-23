@@ -1,0 +1,35 @@
+@import 'libs/bootstrap-reboot.min.scss';
+
+
+@import 'base/variables';
+@import 'base/fonts.scss';
+@import 'base/mixins';
+
+* {
+    /* font-family: 'Poppins' sans-serif; */
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+body {
+    position: relative;
+}
+@import 'blocks/promo';
+@import 'blocks/headers';
+@import 'blocks/buttons';
+@import 'blocks/sidepanel';
+@import 'blocks/hamburger';
+@import 'blocks/menu';
+@import 'blocks/about';
+@import 'blocks/resume';
+@import 'blocks/use';
+@import 'blocks/portfolio';
+@import 'blocks/prices';
+@import 'blocks/contacts';
+
+
+
+@import 'base/media';
