@@ -69,12 +69,12 @@
 				<div class="menu__close">&times;</div>
 				<nav>
 					<ul class="menu__list">
-						<li><a href="#" class="menu__link">ПРО МЕНЯ</a></li>
-						<li><a href="#" class="menu__link">МОЙ ОПЫТ</a></li>
-						<li><a href="#" class="menu__link">МОИ НАВЫКИ</a></li>
-						<li><a href="#" class="menu__link">МОИ РАБОТЫ</a></li>
-						<li><a href="#" class="menu__link">ПРАЙС-ЛИСТ</a></li>
-						<li><a href="#" class="menu__link">КОНТАКТЫ</a></li>
+						<li><a href="#about" class="menu__link">ПРО МЕНЯ</a></li>
+						<li><a href="#resume" class="menu__link">МОЙ ОПЫТ</a></li>
+						<li><a href="#use" class="menu__link">МОИ НАВЫКИ</a></li>
+						<li><a href="#portfolio" class="menu__link">МОИ РАБОТЫ</a></li>
+						<li><a href="#prices" class="menu__link">ПРАЙС-ЛИСТ</a></li>
+						<li><a href="#contacts" class="menu__link">КОНТАКТЫ</a></li>
 					</ul>
 				</nav>
 				<div class="menu__social">
@@ -90,12 +90,12 @@
 			<h1 class="title title_fz48 promo__title">Я web-разработчик 
 				из города Мариуполь</h1>
 			<div class="promo__links">
-				<a href="#" class="promo__link btn">Портфолио</a>
-				<a href="#" class="promo__link">Про меня</a>
+				<a href="#portfolio" class="promo__link btn">Портфолио</a>
+				<a href="#about" class="promo__link">Про меня</a>
 			</div>
 		</div>
 	</section>
-	<section class="about">
+	<section class="about" id="about">
 		<div class="container grid">
 			<picture class="about__img">
 				<source type="image/webp" srcset="img/contact_foto.webp">
@@ -119,7 +119,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="resume">
+	<section class="resume" id="resume">
 		<div class="container">
 			<h2 class="title title_sub resume__title">Опыт</h2>
 			<div class="title resume__subtitle">Чем я буду полезен</div>
@@ -175,7 +175,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="use">
+	<section class="use" id="use">
 		<div class="container">
 			<h2 class="title title_sub use__title">Навыки</h2>
 			<div class="title use__subtitle">Что я использую в работе</div>
@@ -274,7 +274,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="portfolio">
+	<section class="portfolio" id="portfolio">
 		<div class="container">
 			<h2 class="title title_sub portfolio__title">Портфолио</h2>
 			<div class="title portfolio__subtitle">Мои работы</div>
@@ -307,7 +307,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="prices">
+	<section class="prices" id="prices">
 		<div class="container">
 			<div class="title title_sub prices__title">Прайс-лист</div>
 
@@ -316,21 +316,21 @@
 					<div class="prices__item">
 						<div class="prices__item-head">
 							<div class="prices__name">Landing-page</div>
-							<div class="prices__price">от 8000 руб.</div>
+							<div class="prices__price">от 4000 грн.</div>
 						</div>
 						<div class="prices__item-descr">Одностраничный сайт для презентации услуг/товаров/...</div>
 					</div>
 					<div class="prices__item">
 						<div class="prices__item-head">
 							<div class="prices__name">Корпоративный сайт</div>
-							<div class="prices__price">от 20000 руб.</div>
+							<div class="prices__price">от 10000 грн.</div>
 						</div>
 						<div class="prices__item-descr">Сайт для вашего бизнеса или компании</div>
 					</div>
 					<div class="prices__item">
 						<div class="prices__item-head">
 							<div class="prices__name">Интернет-магазин</div>
-							<div class="prices__price">от 30000 руб.</div>
+							<div class="prices__price">от 15000 грн.</div>
 						</div>
 						<div class="prices__item-descr">Инструмент для ваших продаж в сети</div>
 					</div>
@@ -339,14 +339,14 @@
 					<div class="prices__item">
 						<div class="prices__item-head">
 							<div class="prices__name">Web-приложение</div>
-							<div class="prices__price">от 28000 руб.</div>
+							<div class="prices__price">от 14000 грн.</div>
 						</div>
 						<div class="prices__item-descr">Приложение внутри браузера для лучшего комфорта</div>
 					</div>
 					<div class="prices__item">
 						<div class="prices__item-head">
 							<div class="prices__name">Android/IOS Приложение</div>
-							<div class="prices__price">от 25000 руб.</div>
+							<div class="prices__price">от 17000 грн.</div>
 						</div>
 						<div class="prices__item-descr">Приложение для смартфона любой ОС</div>
 					</div>
@@ -361,7 +361,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="contacts">
+	<section class="contacts" id="contacts">
 		<div class="container">
 			<div class="contacts__wrapper">
 				<div class="contacts__photo">
@@ -379,23 +379,23 @@
 					</div>
 					<div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сам вам напишу:</div>
 
-					<form action="#" class="contacts__form">
+					<form action="#" class="contacts__form" id="contact_form">
 						<div class="contacts__input">
-							<input required name="name" id="name" type="text">
+							<input name="name" id="name" type="text">
 							<label for="name">Ваше имя</label>
 						</div>
 						<div class="contacts__input">
-							<input required type="email" name="email" id="email">
+							<input type="email" name="email" id="email">
 							<label for="email">Ваша почта</label>
 						</div>
-						<div class="contacts__textarea">
+						<div  class="contacts__textarea">
 							<textarea name="text" id="text"></textarea>
 							<label for="text">Ваше сообщение</label>
 						</div>
 						<div class="contacts__triggers">
 							<button class="btn contacts__btn">Отправить сообщение</button>
 							<div class="contacts__policy">
-								<input required type="checkbox" name="policy" id="policy">
+								<input type="checkbox" name="policy" id="policy">
 								<span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
 							</div>
 						</div>
@@ -407,6 +407,8 @@
 
 
 
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	 <script src="js/jquery.validate.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>

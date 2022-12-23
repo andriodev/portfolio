@@ -107,4 +107,11 @@
 		line-height: 21px;
 		color: #000000;
 	}
+	.error {
+		border: 1px solid red;
+	}
+	label.error {
+		border: none;
+		z-index: 1000;
+	}
 }

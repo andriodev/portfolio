@@ -35,6 +35,11 @@
 			grid-template-rows: repeat(2,230px);
 		}
 	}
+	.contacts {
+		&__form {
+			grid-template-columns: repeat(2, 205px);
+		}
+	}
 }
 @media(max-width:992px){
 	.container {
