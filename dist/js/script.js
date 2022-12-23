@@ -68,7 +68,6 @@ const procents = document.querySelectorAll('.use__statistic-progress'),
 
 
 	$('form').submit(function(e) {
-		e.preventDeflaut();
 
 		if(!$(this).valid()) {
 			return;
